@@ -99,7 +99,7 @@ The keyboard runs as an Android **Service** (`WriteMaxKeyboardService`) register
 
 | Build | Link |
 |-------|------|
-| **Debug APK (v1.0)** | [⬇️ Download app-debug.apk](app-debug.apk) |
+| **Debug APK (v1.0)** | [⬇️ Download app-debug.apk](https://github.com/star123-lead/WriteMax/releases/download/v1.0/app-debug.apk)
 | **Release APK** | *Coming soon* |
 
 > ⚠️ **Note:** This is a debug build. For production use, build a signed release APK.
