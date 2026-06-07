@@ -1,7 +1,5 @@
 <div align="center">
 
-<img src="app/src/main/res/drawable/writemax_logo.png" alt="WriteMax Logo" width="120" height="120" />
-
 # ⌨️ WriteMax
 
 **A Smart Android Keyboard Built with Jetpack Compose**
@@ -15,7 +13,7 @@
 
 > A custom Android IME (Input Method Editor) keyboard application built using modern Android development practices — Jetpack Compose, Kotlin, and the latest Android SDK 36.
 
-[📥 Download APK](#download) · [🚀 Features](#features) · [🛠️ Setup](#setup) · [📸 Screenshots](#screenshots) · [🤝 Contributing](#contributing)
+[📥 Download APK](#-download) · [✨ Features](#-features) · [⚙️ Setup](#️-setup) · [📸 Screenshots](#-screenshots) · [🤝 Contributing](#-contributing)
 
 </div>
 
@@ -23,20 +21,20 @@
 
 ## 📖 Table of Contents
 
-- [About](#about)
-- [Features](#features)
-- [Tech Stack](#tech-stack)
-- [Architecture](#architecture)
-- [Screenshots](#screenshots)
-- [Download](#download)
-- [Setup & Installation](#setup)
-- [How to Enable the Keyboard](#how-to-enable)
-- [Project Structure](#project-structure)
-- [Permissions](#permissions)
-- [Roadmap](#roadmap)
-- [Contributing](#contributing)
-- [Author](#author)
-- [License](#license)
+- [About](#-about)
+- [Features](#-features)
+- [Tech Stack](#️-tech-stack)
+- [Architecture](#️-architecture)
+- [Screenshots](#-screenshots)
+- [Download](#-download)
+- [Setup & Installation](#️-setup)
+- [How to Enable the Keyboard](#-how-to-enable-the-keyboard)
+- [Project Structure](#-project-structure)
+- [Permissions](#-permissions)
+- [Roadmap](#️-roadmap)
+- [Contributing](#-contributing)
+- [Author](#-author)
+- [License](#-license)
 
 ---
 
@@ -91,11 +89,9 @@ The keyboard runs as an Android **Service** (`WriteMaxKeyboardService`) register
 
 ## 📸 Screenshots
 
-> *(Add your screenshots here after taking them from a real device or emulator)*
-
-| Home Screen | Keyboard Active | Settings |
-|:-----------:|:---------------:|:--------:|
-| ![home](screenshots/home.png) | ![keyboard](screenshots/keyboard.png) | ![settings](screenshots/settings.png) |
+| Home Screen | Letter Keys | Number Keys |
+|:-----------:|:-----------:|:-----------:|
+| ![Home](home.jpg) | ![Letters](letters.jpg) | ![Numbers](numbers.jpg) |
 
 ---
 
@@ -103,7 +99,7 @@ The keyboard runs as an Android **Service** (`WriteMaxKeyboardService`) register
 
 | Build | Link |
 |-------|------|
-| **Debug APK (v1.0)** | [⬇️ Download app-debug.apk](releases/app-debug.apk) |
+| **Debug APK (v1.0)** | [⬇️ Download app-debug.apk](app-debug.apk) |
 | **Release APK** | *Coming soon* |
 
 > ⚠️ **Note:** This is a debug build. For production use, build a signed release APK.
@@ -124,15 +120,15 @@ Make sure you have the following installed:
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/star123-lead/writemax.git
-cd writemax
+git clone https://github.com/star123-lead/WriteMax.git
+cd WriteMax
 ```
 
 ### Open in Android Studio
 
 1. Open **Android Studio**
 2. Click **File → Open**
-3. Select the cloned `writemax` folder
+3. Select the cloned `WriteMax` folder
 4. Let Gradle sync finish
 5. Connect your Android device or start an emulator
 
@@ -155,7 +151,7 @@ Or just click the ▶️ **Run** button in Android Studio.
 After installing the app, follow these steps to activate WriteMax as your keyboard:
 
 1. Open **Settings** on your Android phone
-2. Go to **General Management → Keyboard list and default** (may vary by device)
+2. Go to **General Management → Keyboard list and default** *(may vary by device)*
 3. Tap **On-screen keyboard** → **Manage keyboards**
 4. Enable **WriteMax** from the list
 5. Tap **WriteMax** to set it as the default keyboard
@@ -168,22 +164,26 @@ After installing the app, follow these steps to activate WriteMax as your keyboa
 ## 📁 Project Structure
 
 ```
-writemax/
+WriteMax/
 ├── app/
 │   ├── src/
 │   │   ├── main/
 │   │   │   ├── java/com/example/writemax/
-│   │   │   │   ├── MainActivity.kt           ← Launch screen
+│   │   │   │   ├── MainActivity.kt            ← Launch screen
 │   │   │   │   └── WriteMaxKeyboardService.kt ← IME Service
 │   │   │   ├── res/
 │   │   │   │   ├── drawable/
 │   │   │   │   │   └── writemax_logo.png
 │   │   │   │   └── xml/
-│   │   │   │       └── method.xml            ← IME metadata
+│   │   │   │       └── method.xml             ← IME metadata
 │   │   │   └── AndroidManifest.xml
 │   └── build.gradle.kts
 ├── build.gradle.kts
 ├── settings.gradle.kts
+├── app-debug.apk
+├── home.jpg
+├── letters.jpg
+├── numbers.jpg
 └── README.md
 ```
 
