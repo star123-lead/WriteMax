@@ -243,7 +243,7 @@ Please follow [conventional commits](https://www.conventionalcommits.org/) for c
 
 **Thangamani Palanivel (Star)**
 
-- 🌐 Portfolio: [starerr.com](https://starerr.com)
+- 🌐 Portfolio: [starerr.com](https://starerr.com](https://starinulagam.vercel.app/))
 - 💼 LinkedIn: [thangamani-p](https://www.linkedin.com/in/thangamani-p-b694953ba)
 - 🐙 GitHub: [@star123-lead](https://github.com/star123-lead)
 - 📧 Email: ptm9541@gmail.com
